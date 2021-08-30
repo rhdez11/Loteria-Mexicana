@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      img {
+        max-height: 140px;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body onload="GenerateBoard()">
+    <table id="myBoard">
+      <tbody>
+        <tr class="boardRow">
+          <td><img src="img/cardback.jpg" onclick="Check(0,0)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(0,1)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(0,2)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(0,3)" /></td>
+        </tr>
+        <tr class="boardRow">
+          <td><img src="img/cardback.jpg" onclick="Check(1,0)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(1,1)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(1,2)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(1,3)" /></td>
+        </tr>
+        <tr class="boardRow">
+          <td><img src="img/cardback.jpg" onclick="Check(2,0)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(2,1)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(2,2)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(2,3)" /></td>
+        </tr>
+        <tr class="boardRow">
+          <td><img src="img/cardback.jpg" onclick="Check(3,0)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(3,1)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(3,2)" /></td>
+          <td><img src="img/cardback.jpg" onclick="Check(3,3)" /></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button id="reset" type="button" class="btn btn-primary" onclick="Reset()">
+      Cambiar Cartilla
+    </button>
+    <img id="tarjetaActiva" src="img/cardback.jpg" />
+    <button type="button" class="btn btn-primary" onclick="StartGame()">
+      Iniciar Juego
+    </button>
+
+    <button type="button" class="btn btn-primary" onclick="CheckWin()">
+      Gane
+    </button>
+
+    <!-- <button type="button" class="btn btn-primary" onclick="Reset()">
+      Reset Juego
+    </button> -->
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>

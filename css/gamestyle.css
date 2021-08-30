@@ -1,0 +1,88 @@
+img {
+  max-height: 140px;
+  width: auto;
+}
+
+#welcome {
+  color: white;
+  font-size: 15px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+#welcomediv {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#rightseccion {
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+#game {
+  overflow: hidden;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#game div {
+}
+
+#board {
+  float: left;
+  margin-left: 20%;
+}
+
+#others {
+  float: left;
+  margin-left: 20%;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+#others div {
+  max-width: 300px;
+  display: table;
+  margin: 0 auto;
+}
+
+.oelements {
+  margin-bottom: 20px;
+}
+
+#msgdiv {
+  max-width: 200px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#tarjetaActiva {
+  max-height: 200px;
+  width: auto;
+  border: 2px solid black;
+}
+
+#imgname {
+  max-width: 200px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+#cardname {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: black;
+}
+
+#ganar {
+  display: none;
+}
