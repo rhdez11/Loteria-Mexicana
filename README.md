@@ -7,3 +7,7 @@
 ## Al Ganar ##
 
 ![Loteria Mexicana](/LoteriaGanar.PNG)
+
+## Vista Movil ##
+
+![Loteria Mexicana](/LotteryMobile.png)
